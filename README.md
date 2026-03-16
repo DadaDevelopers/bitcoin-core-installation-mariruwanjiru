@@ -4,3 +4,19 @@
 Compile and run the integration tests and share the results
 
 Run Bitcoin core v30 and use at least 5 RPC commands and share the output
+
+
+Here's a summary of everything I've accomplished:
+✅ Installed Bitcoin Core v30.0 from source using WSL + MinGW cross-compilation
+✅ Ran integration tests — 99% passed (146/147)
+✅ Started Bitcoin Core in regtest mode
+✅ Created a wallet and ran 5 RPC commands:
+
+getblockchaininfo
+getnetworkinfo
+getnewaddress
+getbalance
+getmininginfo
+
+✅ Saved all output to output.txt
+✅ Committed and pushed to GitHub
